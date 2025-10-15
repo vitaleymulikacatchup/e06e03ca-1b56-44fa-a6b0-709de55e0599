@@ -119,7 +119,7 @@ export default function Home() {
             title="Stay Updated"
             description="Subscribe to our newsletter for the latest updates and features."
             className="bg-pastel-blue-100"
-            textBoxTitleClassName="text-blue-900"
+            onSubmit={(email) => console.log(email)}
           />
         </div>
       </div>
